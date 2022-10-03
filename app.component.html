@@ -1,0 +1,27 @@
+<h1>Ficha de personaje</h1>
+Nombre: <input type="text" value="{{nombre}}"/>
+<br>
+Fuerza: <input type="number" disabled="{{ _disabled }}" value="{{ale1}}"/>
+<br>
+Destreza: <input type="number" disabled="{{ _disabled }}" value="{{ale2}}"/>
+<br>
+Inteligencia: <input type="number" disabled="{{ _disabled }}" value="{{ale3}}"/>
+<br>
+Constitución: <input type="number" disabled="{{ _disabled }}" value="{{ale4}}"/>
+<br>
+<input type="button" value="Generar" (click)="numerosAleatorios($event)" />
+<br>
+<input type="button" value="Guardar" (click)="numerosGuardados($event)"/>
+
+<h1>Personaje guardado</h1>
+Nombre: <input type="text" disabled="{{ _disabled }}" value="{{nombregua}}"/>
+<br>
+Fuerza: <input type="number" disabled="{{ _disabled }}" value="{{ale1gua}}"/>
+<br>
+Destreza: <input type="number" disabled="{{ _disabled }}" value="{{ale2gua}}"/>
+<br>
+Inteligencia: <input type="number" disabled="{{ _disabled }}" value="{{ale3gua}}"/>
+<br>
+Constitución: <input type="number" disabled="{{ _disabled }}" value="{{ale4gua}}"/>
+
+
